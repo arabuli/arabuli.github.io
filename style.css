@@ -1,3 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
-  background-color: cornflowerblue;
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+
+#welcome-section {
+  background-color: #1c1e25;
+  height: 100vh;
+  padding-top: 45vh;
+}
+
+#projects {
+  color: white;
+  background-color: #2c3e50;
+  height: 150vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  background-position: center;
+}
+
+#projects p {
+  padding-top: 20vh;
+}
+
+#contact {
+  background-color: #2c3e50;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-right: 120px;
+  list-style: none;
+}
+
+#navbar {
+  height: 50px;
+  width: 100%;
+  background-color: #04305c;
+  padding-top: 10px;
+  position: fixed;
+  text-align: right;
+  top: 0;
+  right: 0;
+  color: #fff;
+}
+
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  color: azure;
+}
+
+p {
+  text-align: center;
+  color: azure;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (min-height: 800px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+
+
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 230px;
+  margin: 50px auto 50px auto;
+  border-radius: 20px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 230px;
+  margin: 50px auto 50px auto;
+  border-radius: 20px;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 230px;
+  margin: 50px auto 50px auto;
+  border-radius: 20px;
+}
+
+
+.project-tile,
+.project-tile-1,
+.project-tile-2,
+.project-tile-3,
+.project-tile-4,
+.project-tile-5 {
+  width: 25%;
+  height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  border-radius: 10px;
+  border: 50px;
+}
+
+.project-tile-1 {
+  background-color: red;
+}
+
+.project-tile-2 {
+  background-color: blue;
+}
+
+.project-tile-3 {
+  background-color: green;
+}
+
+.project-tile-4 {
+  background-color: yellow;
 }
